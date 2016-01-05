@@ -1,0 +1,19 @@
+<!doctype html>
+{% load staticfiles %}
+<html>
+<head>
+<title>貓咪小百科</title>
+<meta charset=utf-8>
+<link rel=stylesheet href={% static 'main/css/main.css' %}>
+<CENTER><font color="brown"><h1>喵嗚～歡迎來到喵星人的世界</h1></font><CENTER>
+<p><img src={% static 'main/img/01.jpg' %} alt=程式語言影像></p>
+</head>
+<body>
+
+<p>{{like}}</p>
+<p><a href={% url 'main:about' %}>點我看看貓咪₍˄·͈༝·͈˄₎ฅ˒˒</a></p>
+<p><a href={% url 'wiki:wiki' %}>貓咪飼養百科</a></p>
+</body>
+</html>
+
+<p>現在時間：{{now}}</p> 

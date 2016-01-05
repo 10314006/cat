@@ -1,0 +1,34 @@
+<!doctype html>
+
+{% load staticfiles %}
+<html>
+<head>
+<title>貓咪小百科</title>
+<meta charset=utf-8>
+<link rel=stylesheet href={% static 'main/css/main.css' %}>
+</head>
+<body>
+<CENTER><font color="henna"><h1>            喵       星       人       的        種      類</h1></font><CENTER>
+<p>以下利用圖片簡單介紹幾種常見的貓咪</p>
+<br>
+<font color="brown"><p>賓士貓<p></font>
+<img src={% static 'main/img/賓士貓.jpg' %} alt=程式語言影像   width="300height="300">
+<img src={% static 'main/img/賓士貓2.jpg' %} alt=程式語言影像  width="300 height="300">
+<font color="brown"><p>折耳貓<p></font>
+<img src={% static 'main/img/折耳貓.jpg' %} alt=程式語言影像  width="300 height="300">
+<img src={% static 'main/img/折耳貓2.jpg' %} alt=程式語言影像  width="300 height="300">
+<font color="brown"><p>花貓<p></font>
+<img src={% static 'main/img/花貓.jpg' %} alt=程式語言影像  width="300 height="300">
+<img src={% static 'main/img/花貓2.jpg' %} alt=程式語言影像  width="300 height="300">
+<font color="brown"><p>豹貓<p></font>
+<img src={% static 'main/img/豹貓.jpg' %} alt=程式語言影像  width="300 height="300">
+<img src={% static 'main/img/豹貓2.jpg' %} alt=程式語言影像  width="300 height="300">
+<font color="brown"><p>+ 0 的麥基<p></font>
+<img src={% static 'main/img/麥基.jpg' %} alt=程式語言影像  width="300 height="300">
+<img src={% static 'main/img/麥基基.jpg' %} alt=程式語言影像  width="300 height="300">
+<img src={% static 'main/img/麥基基2.jpg' %} alt=程式語言影像  width="300 height="300">
+
+<p><a href={% url 'main:main' %}>點我回首頁</a></p>
+
+</body>
+</html>
